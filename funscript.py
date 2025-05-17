@@ -9,9 +9,6 @@ def new_story(): #Make a new story
     if new == "1":
         quickstart().quick()
 
-
-
-
 def story_exists(): #Access existing story
     find = input("What's the name of your story?").strip()
 
