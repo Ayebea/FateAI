@@ -22,7 +22,7 @@ class quickstart(object):
         ]
         self.messages.append({
             "role": "user",
-            "content" : (f"Auto-generate a name for a random story in the {genre} genre. Return only the title")
+            "content" : (f"Auto-generate a name for a random story in the {genre} genre. Return only the title and nothing else")
 
     })
         title_response = ollama.chat(model="mistral",messages=self.messages)
